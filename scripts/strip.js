@@ -212,7 +212,7 @@ class LedStrip
       this.frequence = val;
     }.bind(this)));
     
-    inputs.push(Form.CreateSelectionInput("Strip type (default 'Neo NEO_GRB'):", this.colortype, ["NEO_RGB","NEO_RBG","NEO_GRB","NEO_GBR","NEO_BRG","NEO_BGR","NEO_WRGB","NEO_WRBG","NEO_WGRB","NEO_WGBR","NEO_WBRG","NEO_WBGR"], function(val){
+    inputs.push(Form.CreateSelectionInput("Strip type (default 'Neo NEO_GRB'):", this.colortype, ["NEO_RGB","NEO_RBG","NEO_GRB","NEO_GBR","NEO_BRG","NEO_BGR","NEO_WRGB","NEO_WRBG","NEO_WGRB","NEO_WGBR","NEO_WBRG","NEO_WBGR","NEO_RWGB","NEO_RWBG","NEO_RGWB","NEO_RGBW","NEO_RBWG","NEO_RBGW","NEO_GWRB","NEO_GWBR","NEO_GRWB","NEO_GRBW","NEO_GBWR","NEO_GBRW","NEO_BWRG","NEO_BWGR","NEO_BRWG","NEO_BRGW","NEO_BGWR","NEO_BGRW"], function(val){
       this.colortype = val;
     }.bind(this)));
 
